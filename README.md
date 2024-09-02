@@ -19,6 +19,8 @@ These points are as follows:
 
 ### Parsing the code to an AST
 
+> This is a good article around getting AST's, where we might want to look into alternatives: https://www.digitalocean.com/community/tutorials/js-traversing-ast
+
 Currently we're using the (acorn)[https://github.com/acornjs/acorn] library to create our AST, but we might want to investigate alternatives in the future.
 
 ### Comparing the AST
