@@ -25,6 +25,8 @@ Currently we're using the (acorn)[https://github.com/acornjs/acorn] library to c
 
 ### Comparing the AST
 
+> This might have been done before, so we might be able to use it: https://github.com/kucherenko/jscpd
+
 So we want to compare the AST, we want to do this while ignoring variable and function names. As these are sometimes scrambled or even when code is duplicated across (a) codebase(s).
 
 Once we have the AST compared, we want to show a list of potentially duplicated code, with links to their locations with ideally a preview of the locations code.
