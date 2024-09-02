@@ -1,6 +1,6 @@
 {
-  "name": "example-extension",
-  "description": "Example extension that helps you kick start development.",
+  "name": "duplicate-code-extension",
+  "description": "Collect code from inline scripts and fetched scripts, where after it compares the AST of the code to detect duplicate code patterns.",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,6 +17,9 @@
     "@nextui-org/system": "^2.2.5",
     "@nextui-org/theme": "^2.2.9",
     "@types/chrome": "^0.0.269",
+    "acorn": "^8.12.1",
+    "acorn-loose": "^8.4.0",
+    "acorn-walk": "^8.3.3",
     "formik": "^2.4.6",
     "framer-motion": "^11.3.24",
     "next": "14.2.5",

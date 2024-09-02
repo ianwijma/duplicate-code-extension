@@ -1,6 +1,6 @@
 (() => {
 	chrome.devtools.panels.create(
-		'Example Extension',
+		'Duplicate Code',
 		'',
 		'devtools.html',
 		function (panel) {

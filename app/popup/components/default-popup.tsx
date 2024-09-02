@@ -17,14 +17,14 @@ export const DefaultPopup = () => {
     return (
         <Modal className='rounded-none' isOpen={true}>
             <ModalHeader>
-                Example popup
+                Duplicate Code
             </ModalHeader>
             <ModalBody>
-                Popup Content
+
             </ModalBody>
             <ModalFooter>
                 <Button onClick={handleClick}>
-                    Sent message to content
+                    Collect Page Code
                 </Button>
             </ModalFooter>
         </Modal>

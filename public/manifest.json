@@ -1,8 +1,8 @@
 {
 	"$schema": "https://json.schemastore.org/chrome-manifest",
 	"manifest_version": 3,
-	"name": "Example Extension",
-	"description": "Example extension that helps you kick start development.",
+	"name": "Duplicate Code",
+	"description": "Collect code from inline scripts and fetched scripts, where after it compares the AST of the code to detect duplicate code patterns.",
 	"version": "1.0",
 	"action": {
 		"default_popup": "popup.html",
